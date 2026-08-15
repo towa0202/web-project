@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - AI Warn-Sys</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body { margin: 0; font-family: 'Plus Jakarta Sans', sans-serif; background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; color: #102a43; text-align: center; overflow: hidden; }
+        .hero-container { background: white; padding: 50px 60px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.08); max-width: 700px; position: relative; border-top: 6px solid #3b82f6; animation: fadeIn 0.8s ease-out forwards; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .icon-top { font-size: 45px; color: #3b82f6; margin-bottom: 20px; }
+        h1 { font-size: 32px; font-weight: 800; margin: 0 0 10px 0; color: #102a43; }
+        h2 { font-size: 18px; font-weight: 600; color: #334e68; margin: 0 0 30px 0; text-transform: uppercase; letter-spacing: 1px; }
+        .motive-box { background: #f1f5f9; padding: 25px; border-radius: 12px; border-left: 4px solid #10b981; text-align: left; margin-bottom: 35px; line-height: 1.7; }
+        .motive-box h3 { margin: 0 0 10px 0; font-size: 16px; color: #10b981; display: flex; align-items: center; gap: 8px; }
+        .motive-box p { margin: 0; font-size: 15px; color: #486581; }
+        .btn-enter { background: #3b82f6; color: white; text-decoration: none; padding: 16px 35px; font-size: 16px; font-weight: 700; border-radius: 30px; display: inline-flex; align-items: center; gap: 12px; transition: 0.3s; box-shadow: 0 8px 15px rgba(59, 130, 246, 0.3); }
+        .btn-enter:hover { background: #2563eb; transform: translateY(-3px); box-shadow: 0 12px 20px rgba(59, 130, 246, 0.4); }
+        .footer { margin-top: 30px; font-size: 14px; color: #829ab1; font-weight: 600; }
+        .footer span { color: #3b82f6; font-weight: 800; }
+    </style>
+</head>
+<body>
+    <div class="hero-container">
+        <i class="fas fa-hospital-user icon-top"></i>
+        <h1>AI-Based Early Warning System</h1>
+        <h2>For Hospital Resource Shortage</h2>
+        
+        <div class="motive-box">
+            <h3><i class="fas fa-bullseye"></i> Project Motive & Objective</h3>
+            <p>
+                Hospitals frequently face unexpected crises due to the sudden depletion of life-saving resources like <b>Oxygen, ICU beds, and critical blood groups.</b> <br><br>
+                This system is designed to monitor real-time hospital inventory. By utilizing demand forecasting and threshold logic, it provides <b>Early Red Alerts</b> before a resource completely runs out, ensuring uninterrupted medical care and saving patient lives.
+            </p>
+        </div>
+
+        <a href="/dashboard.html" class="btn-enter">
+            Open Dashboard <i class="fas fa-arrow-right"></i>
+        </a>
+        
+        <div class="footer">
+            Made by <span>Tanzina Tabassum Towa</span>
+        </div>
+    </div>
+</body>
+</html>
